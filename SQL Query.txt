@@ -1,0 +1,11 @@
+create table userlogin(
+ueser_id int NOT NULL AUTO_INCREMENT,
+username varchar(50) NOT NULL,
+password varchar(50) NOT NULL,
+email varchar(50) NOT NULL,
+otp int,
+validuser varchar(50),
+PRIMARY KEY (ueser_id)
+);
+
+insert into userlogin (username, password, email, otp) values('khizar1','123451','sd1@gmail.com', null);
