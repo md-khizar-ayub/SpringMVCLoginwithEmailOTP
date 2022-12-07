@@ -36,7 +36,7 @@ public class SendMail {
 	      Session session = Session.getDefaultInstance(properties,new Authenticator() {
 	          public PasswordAuthentication getPasswordAuthentication() {
 	        	  //please change the username () and Password with respect to your Gamil (^_^)!
-	              return new PasswordAuthentication("mka.private007@gmail.com", "yqmkotacyayzezmq");
+	              return new PasswordAuthentication("mka.private@gmail.com", "yqmkotacyayzezmq");
 	          }
 	      });
 	 
